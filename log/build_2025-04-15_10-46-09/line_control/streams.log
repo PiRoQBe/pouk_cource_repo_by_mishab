@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control -- -j12 -l12
+[0.055s] [35m[1mScanning dependencies of target line_control_node[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/line_control_node.dir/src/line_control.cpp.o[0m
+[1.398s] [01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:[m[K In member function ‘[01m[Kdouble LineControl::cross_track_err_ellipse()[m[K’:
+[1.398s] [01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:97:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+[1.398s]    97 |             [01;31m[Ke[m[K = cross_track_err_circle(6, 0, 6);
+[1.398s]       |             [01;31m[K^[m[K
+[1.399s] [01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:101:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+[1.400s]   101 |             [01;31m[Ke[m[K = cross_track_err_circle(-6, 0, 6);
+[1.400s]       |             [01;31m[K^[m[K
+[1.401s] [01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:105:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+[1.401s]   105 |             [01;31m[Ke[m[K = -cross_track_err_line(6);  // Отклонение от верхней прямой y = R
+[1.401s]       |             [01;31m[K^[m[K
+[1.402s] [01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:108:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+[1.402s]   108 |             [01;31m[Ke[m[K = cross_track_err_line(-6);
+[1.402s]       |             [01;31m[K^[m[K
+[1.403s] [01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:111:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+[1.403s]   111 |         return  [01;31m[Ke[m[K;
+[1.403s]       |                 [01;31m[K^[m[K
+[3.758s] make[2]: *** [CMakeFiles/line_control_node.dir/build.make:63: CMakeFiles/line_control_node.dir/src/line_control.cpp.o] Error 1
+[3.758s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/line_control_node.dir/all] Error 2
+[3.758s] make: *** [Makefile:141: all] Error 2
+[3.762s] Invoked command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control -- -j12 -l12

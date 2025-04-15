@@ -1,0 +1,11 @@
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:[m[K In constructor ‘[01m[KLineControl::LineControl()[m[K’:
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:26:77:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktimer_[m[K’
+   26 |         err_pub_ = this->create_publisher<std_msgs::msg::Float64>("err", 10)
+      |                                                                             [01;31m[K^[m[K
+      |                                                                             [32m[K;[m[K
+......
+   29 |         [32m[Ktimer_[m[K = this->create_wall_timer(
+      |         [32m[K~~~~~~[m[K                                                               
+make[2]: *** [CMakeFiles/line_control_node.dir/build.make:63: CMakeFiles/line_control_node.dir/src/line_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/line_control_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

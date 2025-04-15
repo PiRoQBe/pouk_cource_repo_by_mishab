@@ -1,0 +1,4 @@
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:[m[K In member function ‘[01m[Kdouble LineControl::cross_track_err_ellipse()[m[K’:
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:94:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   94 |         double [01;35m[Kcx[m[K = R;  // Центр правой окружности
+      |                [01;35m[K^~[m[K

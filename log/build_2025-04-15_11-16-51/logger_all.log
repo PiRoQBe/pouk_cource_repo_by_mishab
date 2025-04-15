@@ -1,0 +1,144 @@
+[0.283s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.284s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7760f605e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7760f605e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7760f60af0>)
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.429s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_control) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_control) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_control) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_control) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_control) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_control) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_control) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_control) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/line_control) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/line_control' with type 'ros.ament_cmake' and name 'line_control'
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.469s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install
+[0.469s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'line_control' build argument 'cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'line_control' build argument 'cmake_target' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'line_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'line_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'line_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'line_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'line_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'line_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'line_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.502s] DEBUG:colcon.colcon_core.verb:Building package 'line_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control', 'merge_install': False, 'path': '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control', 'symlink_install': False, 'test_result_base': None}
+[0.502s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.504s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.504s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control' with build type 'ament_cmake'
+[0.504s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control'
+[0.506s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.507s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control': CMAKE_PREFIX_PATH=/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control -- -j12 -l12
+[6.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control' returned '0': CMAKE_PREFIX_PATH=/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control -- -j12 -l12
+[6.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control': CMAKE_PREFIX_PATH=/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control
+[6.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_control)
+[6.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control' returned '0': CMAKE_PREFIX_PATH=/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control
+[6.817s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control' for CMake module files
+[6.818s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control' for CMake config files
+[6.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_control', 'cmake_prefix_path')
+[6.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/hook/cmake_prefix_path.ps1'
+[6.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/hook/cmake_prefix_path.dsv'
+[6.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/hook/cmake_prefix_path.sh'
+[6.821s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/lib'
+[6.821s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/bin'
+[6.821s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/lib/pkgconfig/line_control.pc'
+[6.821s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/lib/python3.8/site-packages'
+[6.822s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/bin'
+[6.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.ps1'
+[6.823s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.dsv'
+[6.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.sh'
+[6.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.bash'
+[6.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.zsh'
+[6.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/colcon-core/packages/line_control)
+[6.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_control)
+[6.827s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control' for CMake module files
+[6.828s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control' for CMake config files
+[6.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_control', 'cmake_prefix_path')
+[6.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/hook/cmake_prefix_path.ps1'
+[6.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/hook/cmake_prefix_path.dsv'
+[6.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/hook/cmake_prefix_path.sh'
+[6.830s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/lib'
+[6.830s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/bin'
+[6.830s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/lib/pkgconfig/line_control.pc'
+[6.830s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/lib/python3.8/site-packages'
+[6.830s] Level 1:colcon.colcon_core.environment:checking '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/bin'
+[6.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.ps1'
+[6.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.dsv'
+[6.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.sh'
+[6.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.bash'
+[6.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.zsh'
+[6.832s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/colcon-core/packages/line_control)
+[6.833s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.833s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.834s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.834s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.852s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.853s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.853s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.853s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.854s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.854s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.854s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/local_setup.ps1'
+[6.856s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/_local_setup_util_ps1.py'
+[6.857s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/setup.ps1'
+[6.858s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/local_setup.sh'
+[6.859s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/_local_setup_util_sh.py'
+[6.859s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/setup.sh'
+[6.860s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/local_setup.bash'
+[6.861s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/setup.bash'
+[6.862s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/local_setup.zsh'
+[6.862s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/setup.zsh'

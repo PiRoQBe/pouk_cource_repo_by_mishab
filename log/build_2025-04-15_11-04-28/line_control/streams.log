@@ -1,0 +1,28 @@
+[0.026s] Invoking command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control': CMAKE_PREFIX_PATH=/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control -- -j12 -l12
+[0.062s] [35m[1mScanning dependencies of target line_control_node[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/line_control_node.dir/src/line_control.cpp.o[0m
+[6.146s] [100%] [32m[1mLinking CXX executable line_control_node[0m
+[6.583s] [100%] Built target line_control_node
+[6.594s] Invoked command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control' returned '0': CMAKE_PREFIX_PATH=/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control -- -j12 -l12
+[6.602s] Invoking command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control': CMAKE_PREFIX_PATH=/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control
+[6.610s] -- Install configuration: ""
+[6.610s] -- Installing: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/lib/line_control/line_control_node
+[6.612s] -- Set runtime path of "/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/lib/line_control/line_control_node" to ""
+[6.612s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/launch
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/launch/line.launch.xml
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/ament_index/resource_index/package_run_dependencies/line_control
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/ament_index/resource_index/parent_prefix_path/line_control
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/environment/ament_prefix_path.sh
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/environment/ament_prefix_path.dsv
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/environment/path.sh
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/environment/path.dsv
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/local_setup.bash
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/local_setup.sh
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/local_setup.zsh
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/local_setup.dsv
+[6.614s] -- Installing: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.dsv
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/ament_index/resource_index/packages/line_control
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/cmake/line_controlConfig.cmake
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/cmake/line_controlConfig-version.cmake
+[6.614s] -- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.xml
+[6.618s] Invoked command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control' returned '0': CMAKE_PREFIX_PATH=/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control

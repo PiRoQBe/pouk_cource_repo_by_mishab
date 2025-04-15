@@ -1,0 +1,15 @@
+[0.026s] Invoking command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control -- -j12 -l12
+[0.211s] [35m[1mScanning dependencies of target line_control_node[0m
+[0.240s] [ 50%] [32mBuilding CXX object CMakeFiles/line_control_node.dir/src/line_control.cpp.o[0m
+[1.734s] [01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:[m[K In constructor ‘[01m[KLineControl::LineControl()[m[K’:
+[1.735s] [01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:26:77:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktimer_[m[K’
+[1.735s]    26 |         err_pub_ = this->create_publisher<std_msgs::msg::Float64>("err", 10)
+[1.735s]       |                                                                             [01;31m[K^[m[K
+[1.735s]       |                                                                             [32m[K;[m[K
+[1.735s] ......
+[1.735s]    29 |         [32m[Ktimer_[m[K = this->create_wall_timer(
+[1.735s]       |         [32m[K~~~~~~[m[K                                                               
+[57.249s] make[2]: *** [CMakeFiles/line_control_node.dir/build.make:63: CMakeFiles/line_control_node.dir/src/line_control.cpp.o] Interrupt
+[57.252s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/line_control_node.dir/all] Interrupt
+[57.253s] make: *** [Makefile:141: all] Interrupt
+[57.259s] Invoked command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control -- -j12 -l12

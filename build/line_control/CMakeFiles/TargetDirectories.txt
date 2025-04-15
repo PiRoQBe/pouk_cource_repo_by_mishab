@@ -1,0 +1,10 @@
+/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control/CMakeFiles/install/strip.dir
+/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control/CMakeFiles/install/local.dir
+/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control/CMakeFiles/install.dir
+/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control/CMakeFiles/list_install_components.dir
+/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control/CMakeFiles/rebuild_cache.dir
+/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control/CMakeFiles/edit_cache.dir
+/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control/CMakeFiles/test.dir
+/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control/CMakeFiles/line_control_node.dir
+/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control/CMakeFiles/line_control_uninstall.dir
+/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control/CMakeFiles/uninstall.dir

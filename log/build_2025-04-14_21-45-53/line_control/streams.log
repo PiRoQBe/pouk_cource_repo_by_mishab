@@ -1,0 +1,19 @@
+[0.011s] Invoking command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control': CMAKE_PREFIX_PATH=/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control -- -j12 -l12
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/line_control_node.dir/src/line_control.cpp.o[0m
+[1.010s] [01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:[m[K In member function ‘[01m[Kdouble LineControl::cross_track_err_two_circle()[m[K’:
+[1.010s] [01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:71:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.010s]    71 |             e = sqrt(dx*dx + dy*dy) - R
+[1.010s]       |                                        [01;31m[K^[m[K
+[1.010s]       |                                        [32m[K;[m[K
+[1.010s]    72 |         [32m[K}[m[K
+[1.010s]       |         [32m[K~[m[K                               
+[1.010s] [01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:76:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.010s]    76 |             e = sqrt(dx*dx + dy*dy) - R
+[1.010s]       |                                        [01;31m[K^[m[K
+[1.010s]       |                                        [32m[K;[m[K
+[1.010s]    77 |         [32m[K}[m[K
+[1.010s]       |         [32m[K~[m[K                               
+[2.720s] make[2]: *** [CMakeFiles/line_control_node.dir/build.make:63: CMakeFiles/line_control_node.dir/src/line_control.cpp.o] Error 1
+[2.721s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/line_control_node.dir/all] Error 2
+[2.721s] make: *** [Makefile:141: all] Error 2
+[2.724s] Invoked command in '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control' returned '2': CMAKE_PREFIX_PATH=/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control -- -j12 -l12

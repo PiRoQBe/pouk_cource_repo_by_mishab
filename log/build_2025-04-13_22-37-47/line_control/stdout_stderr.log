@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target line_control_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/line_control_node.dir/src/line_control.cpp.o[0m
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:[m[K In constructor ‘[01m[KLineControl::LineControl()[m[K’:
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:27:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   27 |         double [01;35m[Kdt[m[K = this->declare_parameter("dt", 0.1);
+      |                [01;35m[K^~[m[K
+make[2]: *** [CMakeFiles/line_control_node.dir/build.make:63: CMakeFiles/line_control_node.dir/src/line_control.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/line_control_node.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

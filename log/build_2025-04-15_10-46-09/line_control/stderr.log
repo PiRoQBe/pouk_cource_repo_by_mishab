@@ -1,0 +1,19 @@
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:[m[K In member function ‘[01m[Kdouble LineControl::cross_track_err_ellipse()[m[K’:
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:97:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+   97 |             [01;31m[Ke[m[K = cross_track_err_circle(6, 0, 6);
+      |             [01;31m[K^[m[K
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:101:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+  101 |             [01;31m[Ke[m[K = cross_track_err_circle(-6, 0, 6);
+      |             [01;31m[K^[m[K
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:105:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+  105 |             [01;31m[Ke[m[K = -cross_track_err_line(6);  // Отклонение от верхней прямой y = R
+      |             [01;31m[K^[m[K
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:108:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+  108 |             [01;31m[Ke[m[K = cross_track_err_line(-6);
+      |             [01;31m[K^[m[K
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:111:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+  111 |         return  [01;31m[Ke[m[K;
+      |                 [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/line_control_node.dir/build.make:63: CMakeFiles/line_control_node.dir/src/line_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/line_control_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000278] (line_control) JobQueued: {'identifier': 'line_control', 'dependencies': OrderedDict()}
+[0.000343] (line_control) JobStarted: {'identifier': 'line_control'}
+[0.010052] (line_control) JobProgress: {'identifier': 'line_control', 'progress': 'cmake'}
+[0.010729] (line_control) JobProgress: {'identifier': 'line_control', 'progress': 'build'}
+[0.011698] (line_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control', '--', '-j12', '-l12'], 'cwd': '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maxim'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('GIT_ASKPASS', '/home/maxim/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/maxim'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4999655d-d723-44e5-9813-1b77c340467f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/maxim/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/maxim/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/maxim/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maxim'), ('NAME', 'LAPTOP-NB9G8BPS'), ('WSL_INTEROP', '/run/WSL/648_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/maxim/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/remote-cli:/home/maxim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Program Files/MathLab/runtime/win64:/mnt/d/Program Files/MathLab/bin:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/madon/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/madon/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/madon/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/madon/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/maxim/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/maxim/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8e43f73129818580.txt'), ('LANG', 'en_US.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fcaab61e9c.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy:/opt/ros/noetic'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.060060] (line_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target line_control_node\x1b[0m\n'}
+[0.076201] (-) TimerEvent: {}
+[0.088671] (line_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/line_control_node.dir/src/line_control.cpp.o\x1b[0m\n'}
+[0.176514] (-) TimerEvent: {}
+[0.277188] (-) TimerEvent: {}
+[0.377637] (-) TimerEvent: {}
+[0.478158] (-) TimerEvent: {}
+[0.578746] (-) TimerEvent: {}
+[0.679388] (-) TimerEvent: {}
+[0.779949] (-) TimerEvent: {}
+[0.880441] (-) TimerEvent: {}
+[0.980980] (-) TimerEvent: {}
+[1.081545] (-) TimerEvent: {}
+[1.182142] (-) TimerEvent: {}
+[1.282952] (-) TimerEvent: {}
+[1.383609] (-) TimerEvent: {}
+[1.484304] (-) TimerEvent: {}
+[1.584926] (-) TimerEvent: {}
+[1.685502] (-) TimerEvent: {}
+[1.786063] (-) TimerEvent: {}
+[1.886766] (-) TimerEvent: {}
+[1.987328] (-) TimerEvent: {}
+[2.088094] (-) TimerEvent: {}
+[2.188979] (-) TimerEvent: {}
+[2.289732] (-) TimerEvent: {}
+[2.390267] (-) TimerEvent: {}
+[2.490648] (-) TimerEvent: {}
+[2.591170] (-) TimerEvent: {}
+[2.691692] (-) TimerEvent: {}
+[2.792329] (-) TimerEvent: {}
+[2.892858] (-) TimerEvent: {}
+[2.993415] (-) TimerEvent: {}
+[3.094286] (-) TimerEvent: {}
+[3.194769] (-) TimerEvent: {}
+[3.295486] (-) TimerEvent: {}
+[3.396092] (-) TimerEvent: {}
+[3.496607] (-) TimerEvent: {}
+[3.597263] (-) TimerEvent: {}
+[3.697893] (-) TimerEvent: {}
+[3.798416] (-) TimerEvent: {}
+[3.899099] (-) TimerEvent: {}
+[3.999718] (-) TimerEvent: {}
+[4.100230] (-) TimerEvent: {}
+[4.200642] (-) TimerEvent: {}
+[4.301230] (-) TimerEvent: {}
+[4.401888] (-) TimerEvent: {}
+[4.502415] (-) TimerEvent: {}
+[4.603011] (-) TimerEvent: {}
+[4.703479] (-) TimerEvent: {}
+[4.803963] (-) TimerEvent: {}
+[4.904522] (-) TimerEvent: {}
+[5.005051] (-) TimerEvent: {}
+[5.105551] (-) TimerEvent: {}
+[5.206168] (-) TimerEvent: {}
+[5.306909] (-) TimerEvent: {}
+[5.407576] (-) TimerEvent: {}
+[5.508074] (-) TimerEvent: {}
+[5.608772] (-) TimerEvent: {}
+[5.709475] (-) TimerEvent: {}
+[5.809961] (-) TimerEvent: {}
+[5.910641] (-) TimerEvent: {}
+[6.011192] (-) TimerEvent: {}
+[6.111802] (-) TimerEvent: {}
+[6.214663] (-) TimerEvent: {}
+[6.315268] (-) TimerEvent: {}
+[6.415952] (-) TimerEvent: {}
+[6.516476] (-) TimerEvent: {}
+[6.616889] (-) TimerEvent: {}
+[6.717330] (-) TimerEvent: {}
+[6.817804] (-) TimerEvent: {}
+[6.918331] (-) TimerEvent: {}
+[7.018800] (-) TimerEvent: {}
+[7.119601] (-) TimerEvent: {}
+[7.220314] (-) TimerEvent: {}
+[7.320834] (-) TimerEvent: {}
+[7.421214] (-) TimerEvent: {}
+[7.509789] (line_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable line_control_node\x1b[0m\n'}
+[7.521358] (-) TimerEvent: {}
+[7.621823] (-) TimerEvent: {}
+[7.722459] (-) TimerEvent: {}
+[7.822920] (-) TimerEvent: {}
+[7.899041] (line_control) StdoutLine: {'line': b'[100%] Built target line_control_node\n'}
+[7.923271] (-) TimerEvent: {}
+[7.924746] (line_control) CommandEnded: {'returncode': 0}
+[7.927411] (line_control) JobProgress: {'identifier': 'line_control', 'progress': 'install'}
+[7.936157] (line_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control'], 'cwd': '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maxim'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('GIT_ASKPASS', '/home/maxim/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/maxim'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4999655d-d723-44e5-9813-1b77c340467f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/maxim/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/maxim/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/maxim/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maxim'), ('NAME', 'LAPTOP-NB9G8BPS'), ('WSL_INTEROP', '/run/WSL/648_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/maxim/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/remote-cli:/home/maxim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Program Files/MathLab/runtime/win64:/mnt/d/Program Files/MathLab/bin:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/madon/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/madon/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/madon/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/madon/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/maxim/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/maxim/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8e43f73129818580.txt'), ('LANG', 'en_US.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fcaab61e9c.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy:/opt/ros/noetic'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[7.945491] (line_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.945969] (line_control) StdoutLine: {'line': b'-- Installing: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/lib/line_control/line_control_node\n'}
+[7.948897] (line_control) StdoutLine: {'line': b'-- Set runtime path of "/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/lib/line_control/line_control_node" to ""\n'}
+[7.949163] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/launch\n'}
+[7.949450] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/launch/line.launch.xml\n'}
+[7.949576] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/ament_index/resource_index/package_run_dependencies/line_control\n'}
+[7.949676] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/ament_index/resource_index/parent_prefix_path/line_control\n'}
+[7.949769] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/environment/ament_prefix_path.sh\n'}
+[7.949863] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/environment/ament_prefix_path.dsv\n'}
+[7.949958] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/environment/path.sh\n'}
+[7.950121] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/environment/path.dsv\n'}
+[7.950200] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/local_setup.bash\n'}
+[7.950240] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/local_setup.sh\n'}
+[7.950273] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/local_setup.zsh\n'}
+[7.950301] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/local_setup.dsv\n'}
+[7.950329] (line_control) StdoutLine: {'line': b'-- Installing: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.dsv\n'}
+[7.950358] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/ament_index/resource_index/packages/line_control\n'}
+[7.950389] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/cmake/line_controlConfig.cmake\n'}
+[7.950417] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/cmake/line_controlConfig-version.cmake\n'}
+[7.950445] (line_control) StdoutLine: {'line': b'-- Up-to-date: /home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control/share/line_control/package.xml\n'}
+[7.952328] (line_control) CommandEnded: {'returncode': 0}
+[7.969004] (line_control) JobEnded: {'identifier': 'line_control', 'rc': 0}
+[7.970054] (-) EventReactorShutdown: {}

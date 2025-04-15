@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000743] (line_control) JobQueued: {'identifier': 'line_control', 'dependencies': OrderedDict()}
+[0.000786] (line_control) JobStarted: {'identifier': 'line_control'}
+[0.018310] (line_control) JobProgress: {'identifier': 'line_control', 'progress': 'cmake'}
+[0.021054] (line_control) JobProgress: {'identifier': 'line_control', 'progress': 'build'}
+[0.022256] (line_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control', '--', '-j12', '-l12'], 'cwd': '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maxim'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('GIT_ASKPASS', '/home/maxim/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass.sh'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maxim'), ('OLDPWD', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-57f8ee56-001b-4d0d-8d64-a546a9c2b829.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/maxim/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/maxim/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maxim'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/865_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/maxim/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/remote-cli:/home/maxim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Program Files/MathLab/runtime/win64:/mnt/d/Program Files/MathLab/bin:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/madon/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/madon/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/madon/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/madon/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fcaab61e9c.sock'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/maxim/POUK/labs/lab_3_test/lab_3_ws/build/line_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/opt/ros/noetic:/home/maxim/POUK/labs/lab_3_test/lab_3_ws/install/line_control'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.099472] (-) TimerEvent: {}
+[0.200061] (-) TimerEvent: {}
+[0.244629] (line_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target line_control_node\x1b[0m\n'}
+[0.270633] (line_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/line_control_node.dir/src/line_control.cpp.o\x1b[0m\n'}
+[0.300231] (-) TimerEvent: {}
+[0.400695] (-) TimerEvent: {}
+[0.501166] (-) TimerEvent: {}
+[0.601745] (-) TimerEvent: {}
+[0.702245] (-) TimerEvent: {}
+[0.802790] (-) TimerEvent: {}
+[0.903283] (-) TimerEvent: {}
+[1.003783] (-) TimerEvent: {}
+[1.104262] (-) TimerEvent: {}
+[1.204607] (-) TimerEvent: {}
+[1.304998] (-) TimerEvent: {}
+[1.405421] (-) TimerEvent: {}
+[1.505820] (-) TimerEvent: {}
+[1.606222] (-) TimerEvent: {}
+[1.619375] (line_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLineControl::LineControl()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.619852] (line_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:27:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.619938] (line_control) StderrLine: {'line': b'   27 |         double \x1b[01;35m\x1b[Kdt\x1b[m\x1b[K = this->declare_parameter("dt", 0.1);\n'}
+[1.619976] (line_control) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.706324] (-) TimerEvent: {}
+[1.806659] (-) TimerEvent: {}
+[1.906995] (-) TimerEvent: {}
+[2.007345] (-) TimerEvent: {}
+[2.107679] (-) TimerEvent: {}
+[2.207989] (-) TimerEvent: {}
+[2.308309] (-) TimerEvent: {}
+[2.408635] (-) TimerEvent: {}
+[2.509021] (-) TimerEvent: {}
+[2.609379] (-) TimerEvent: {}
+[2.709730] (-) TimerEvent: {}
+[2.810091] (-) TimerEvent: {}
+[2.910454] (-) TimerEvent: {}
+[3.012125] (-) TimerEvent: {}
+[3.125902] (-) TimerEvent: {}
+[3.233547] (-) TimerEvent: {}
+[3.342877] (-) TimerEvent: {}
+[3.467083] (-) TimerEvent: {}
+[3.596856] (-) TimerEvent: {}
+[3.845116] (-) TimerEvent: {}
+[4.082921] (-) TimerEvent: {}
+[4.456027] (-) TimerEvent: {}
+[4.921148] (-) TimerEvent: {}
+[5.086465] (-) TimerEvent: {}
+[5.578550] (-) TimerEvent: {}
+[6.147354] (-) TimerEvent: {}
+[6.405776] (-) TimerEvent: {}
+[6.672327] (-) TimerEvent: {}
+[7.132387] (-) TimerEvent: {}
+[7.430488] (-) TimerEvent: {}
+[7.775352] (-) TimerEvent: {}
+[8.057701] (-) TimerEvent: {}
+[8.280210] (-) TimerEvent: {}
+[8.470768] (-) TimerEvent: {}
+[8.593905] (-) TimerEvent: {}
+[8.715353] (-) TimerEvent: {}
+[8.923941] (-) TimerEvent: {}
+[9.132821] (-) TimerEvent: {}
+[9.268849] (-) TimerEvent: {}
+[9.381955] (-) TimerEvent: {}
+[9.493923] (-) TimerEvent: {}
+[9.652317] (-) TimerEvent: {}
+[9.785342] (-) TimerEvent: {}
+[9.900588] (-) TimerEvent: {}
+[10.025124] (-) TimerEvent: {}
+[10.524484] (-) TimerEvent: {}
+[10.672369] (-) TimerEvent: {}
+[10.779975] (-) TimerEvent: {}
+[10.901725] (-) TimerEvent: {}
+[11.062019] (-) TimerEvent: {}
+[11.180570] (-) TimerEvent: {}
+[11.312822] (-) TimerEvent: {}
+[11.427509] (-) TimerEvent: {}
+[11.544833] (-) TimerEvent: {}
+[11.738573] (-) TimerEvent: {}
+[11.849528] (-) TimerEvent: {}
+[11.970376] (-) TimerEvent: {}
+[12.076842] (-) TimerEvent: {}
+[12.182611] (-) TimerEvent: {}
+[12.288894] (-) TimerEvent: {}
+[12.397079] (-) TimerEvent: {}
+[12.508765] (-) TimerEvent: {}
+[12.649812] (-) TimerEvent: {}
+[12.856492] (-) TimerEvent: {}
+[13.041067] (-) TimerEvent: {}
+[13.211430] (-) TimerEvent: {}
+[13.370075] (-) TimerEvent: {}
+[13.491525] (-) TimerEvent: {}
+[13.700556] (-) TimerEvent: {}
+[13.857419] (-) TimerEvent: {}
+[13.978693] (-) TimerEvent: {}
+[14.095538] (-) TimerEvent: {}
+[14.237329] (-) TimerEvent: {}
+[14.357570] (-) TimerEvent: {}
+[14.541946] (-) TimerEvent: {}
+[14.655525] (-) TimerEvent: {}
+[14.766142] (-) TimerEvent: {}
+[14.943489] (-) TimerEvent: {}
+[15.079711] (-) TimerEvent: {}
+[15.190555] (-) TimerEvent: {}
+[15.321744] (-) TimerEvent: {}
+[15.440794] (-) TimerEvent: {}
+[15.576656] (-) TimerEvent: {}
+[15.694053] (-) TimerEvent: {}
+[15.931644] (-) TimerEvent: {}
+[16.035740] (-) TimerEvent: {}
+[16.137635] (-) TimerEvent: {}
+[16.238846] (-) TimerEvent: {}
+[16.340895] (-) TimerEvent: {}
+[16.444950] (-) TimerEvent: {}
+[16.548704] (-) TimerEvent: {}
+[16.652920] (-) TimerEvent: {}
+[16.754794] (-) TimerEvent: {}
+[16.863943] (-) TimerEvent: {}
+[16.976529] (-) TimerEvent: {}
+[17.085079] (-) TimerEvent: {}
+[17.204219] (-) TimerEvent: {}
+[17.318450] (-) TimerEvent: {}
+[17.457743] (-) TimerEvent: {}
+[17.708170] (-) TimerEvent: {}
+[17.851670] (-) TimerEvent: {}
+[18.025428] (-) TimerEvent: {}
+[18.166020] (-) TimerEvent: {}
+[18.357446] (-) TimerEvent: {}
+[18.476964] (-) TimerEvent: {}
+[18.604568] (-) TimerEvent: {}
+[18.716543] (-) TimerEvent: {}
+[18.828263] (-) TimerEvent: {}
+[18.966964] (-) TimerEvent: {}
+[19.090865] (-) TimerEvent: {}
+[19.289208] (-) TimerEvent: {}
+[19.397360] (-) TimerEvent: {}
+[19.506819] (-) TimerEvent: {}
+[19.617655] (-) TimerEvent: {}
+[19.734665] (-) TimerEvent: {}
+[19.850623] (-) TimerEvent: {}
+[19.967962] (-) TimerEvent: {}
+[20.103849] (-) TimerEvent: {}
+[20.235699] (-) TimerEvent: {}
+[20.353004] (-) TimerEvent: {}
+[20.486224] (-) TimerEvent: {}
+[20.592294] (-) TimerEvent: {}
+[20.706411] (-) TimerEvent: {}
+[20.868998] (-) TimerEvent: {}
+[21.003768] (line_control) StderrLine: {'line': b'make[2]: *** [CMakeFiles/line_control_node.dir/build.make:63: CMakeFiles/line_control_node.dir/src/line_control.cpp.o] Interrupt\n'}
+[21.008145] (-) TimerEvent: {}
+[21.010924] (line_control) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/line_control_node.dir/all] Interrupt\n'}
+[21.011263] (line_control) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupt\n'}
+[21.022933] (line_control) CommandEnded: {'returncode': -2}
+[21.058333] (line_control) JobEnded: {'identifier': 'line_control', 'rc': 'SIGINT'}
+[21.069486] (-) EventReactorShutdown: {}

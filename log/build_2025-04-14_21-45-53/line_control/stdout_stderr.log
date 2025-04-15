@@ -1,0 +1,17 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/line_control_node.dir/src/line_control.cpp.o[0m
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:[m[K In member function ‘[01m[Kdouble LineControl::cross_track_err_two_circle()[m[K’:
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:71:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   71 |             e = sqrt(dx*dx + dy*dy) - R
+      |                                        [01;31m[K^[m[K
+      |                                        [32m[K;[m[K
+   72 |         [32m[K}[m[K
+      |         [32m[K~[m[K                               
+[01m[K/home/maxim/POUK/labs/lab_3_test/lab_3_ws/src/line_control/src/line_control.cpp:76:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   76 |             e = sqrt(dx*dx + dy*dy) - R
+      |                                        [01;31m[K^[m[K
+      |                                        [32m[K;[m[K
+   77 |         [32m[K}[m[K
+      |         [32m[K~[m[K                               
+make[2]: *** [CMakeFiles/line_control_node.dir/build.make:63: CMakeFiles/line_control_node.dir/src/line_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/line_control_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

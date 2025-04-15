@@ -1,0 +1,29 @@
+<launch>
+   <executable 
+    cmd="bash -c 'source /opt/ros/noetic/setup.bash &amp;&amp; roscore'" 
+    output="screen" 
+    name="roscore"/>
+
+  <!-- Stage -->
+  <executable 
+    cmd="bash -c 'source /opt/ros/noetic/setup.bash &amp;&amp; rosrun stage_ros stageros src/worlds/empty.world'" 
+    output="screen" 
+    name="stage"/>
+
+ 
+  <node pkg="ros1_bridge" exec="dynamic_bridge" name="ros1_bridge" output="screen"/>
+
+  <!-- line_control_node  -->
+  <node pkg="line_control" exec="line_control_node" name="control" output="screen">
+      <remap from="scan" to="base_scan"/>
+      <param name="task_vel" value="1.0"/>
+      <param name="prop_factor" value="5.0"/>
+      <param name="int_factor" value="0.001"/>
+      <param name="diff_factor" value="14"/>
+      <param name="min_obstacle_range" value="1.5"/>
+      <param name="line_y" value="-6.0"/>
+      <param name="use_sim_time" value="true"/>
+  </node>
+
+</launch>
+
